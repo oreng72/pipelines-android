@@ -30,6 +30,7 @@ steps:
     apkFiles: '**/*.apk'
     apksignerKeystoreFile: 'my-release-key.keystore'
     apksignerKeystorePassword: 'orengolan'
+    apksignerKeystoreAlias: 'alias_name'
 
 - task: PublishBuildArtifacts@1
   inputs:
